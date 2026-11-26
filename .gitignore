@@ -1,0 +1,48 @@
+
+# FABRICA DE VIDEOS - ARQUIVO RESTRITO
+
+# Ambiente virtual Python
+**/.venv/
+**/venv/
+**/__pycache__/
+*.py[cod]
+
+# Segredos e credenciais
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+*.pem
+*.key
+
+# Ferramentas e arquivos pesados locais
+/02_FERRAMENTAS/
+/03_MODELOS_IA/
+/04_PROJETOS/
+/05_MIDIAS/
+/07_EXPORTADOS/
+/08_BACKUPS/
+
+# Temporarios
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Modelos de IA
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.gguf
+*.ckpt
+
+# Arquivos compactados
+*.zip
+*.rar
+*.7z
+
+# Documento privado de continuidade
+/09_DOCUMENTACAO/DOCUMENTO_MESTRE_E_CONTINUIDADE.docx
